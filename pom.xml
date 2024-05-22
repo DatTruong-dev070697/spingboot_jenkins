@@ -8,6 +8,7 @@
 		<version>3.2.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+	<packaging>war</packaging>
 	<groupId>com.example</groupId>
 	<artifactId>springboot_jenkins</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -36,6 +37,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>spring-boot-jenkins</finalName>
 	</build>
 
 </project>
