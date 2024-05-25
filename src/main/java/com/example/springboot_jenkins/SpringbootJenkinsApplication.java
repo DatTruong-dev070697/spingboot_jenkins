@@ -7,11 +7,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-public class SpringbootJenkinsApplication {
+public class SpringbootJenkinsApplication{
+
 	@GetMapping("/message")
 	public String getMessage(){
 		return "Hello jenkins";
 	}
+
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootJenkinsApplication.class, args);
 	}
